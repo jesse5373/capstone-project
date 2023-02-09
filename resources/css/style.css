@@ -1,18 +1,142 @@
+body {
+    
+    font-size: 16px;
+    margin: 0 auto; 
+}
+
 
 header {
-    position: fixed; 
+    position: fixed;
     width: 100%;    
     z-index: 1;
+    height: 4rem;
+    border: 1px solid black;
+    background-color: white;
 }
 
 header div {
     display: flex;
     align-items: center;
+    height: 4rem;
+}
+
+h1.header img {
+    
+
+}
+
+
+h1.header {
+    padding-left: 1.5rem;
+}
+
+ul.header {
+    float: right; 
+    padding: 0 1.5rem;
+}
+
+ul li {
+    list-style-type: none;
+    display: inline; 
+}
+
+li {
+    padding: 0 1rem;
+}
+
+
+
+.banner {
+    display: flex; 
+    justify-content: space-around;
+    background-color: grey;
+}
+
+.bannerimage {
+    width: 60%;
+}
+
+.bannerimage1 {
+    width: 100%;
+    padding-right: 1.5rem;
+    padding-top: 2rem;
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.bannercontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    padding-top: 4rem;
+}
+
+.bannercontent h1 {
+    font-size: 2.5rem;
+}
+
+h2.button {
+    text-align: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 0.5rem;
+}
+
+.secondsection {
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    justify-content: space-around;
+}
+
+.secondsectionimagecontainer {
+    width: 60%;
+}
+
+.secondsectionimage {
+    width: 100%;
     
 }
 
-ul {
-    display: flex; 
-    
-    list-style-type: none;
+.secondsectiontext h1 {
+    font-size: 2.5rem;
+}
+
+.firstp {
+    padding-bottom: 1rem;
+}
+
+.threeimages {
+    width: 40%;
+    padding-left: 1.5rem;
+}
+
+.h4secondsection {
+    padding-bottom: 2rem;
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomimage {
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.secondsectionsmallimage {
+    width: 35%;
+    padding: 1rem;
+}
+
+.image1text {
+    width: 65%;
+    padding-left: 1rem; 
+    padding-right: 1rem;
 }
